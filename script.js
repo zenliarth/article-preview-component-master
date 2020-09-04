@@ -4,7 +4,7 @@ function clicar() {
     var share = document.querySelector(".share")
     share.style.display = 'flex'
     btn.style.background = 'hsl(217, 19%, 35%)'
-    img.src = "images/share-branco-pequeno.png"
+    img.src = "/images/share-branco-pequeno.png"
 }
 function saiu() {
     var btn = document.querySelector(".btn-share")
@@ -12,5 +12,5 @@ function saiu() {
     var share = document.querySelector(".share")
     share.style.display= 'none'
     btn.style.background = 'hsla(211, 51%, 88%, 0.842)'
-    img.src = "images/share-azul.png"
+    img.src = "/images/share-azul.png"
 }
